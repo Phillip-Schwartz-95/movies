@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TMDB Genre Browser</title>
+  <link rel="stylesheet" href="css/movie.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h1>Browse Movies by Genre</h1>
+
+  <label for="genreSelect">Choose a Genre:</label>
+  <select id="genreSelect">
+    <option>Loading genres...</option>
+  </select>
+
+  <div id="movieList"></div>
+
+  <script src="js/services/movie-service.js"></script>
+  <script src="js/movie-controller.js"></script>
+</body>
+</html>
